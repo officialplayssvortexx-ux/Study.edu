@@ -5,8 +5,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    // If building for GitHub Actions deployment, use /Study.edu/, otherwise default to root '/'
-    base: process.env.GITHUB_ACTIONS ? '/Study.edu/' : '/',
+    // Set base to root for your custom subdomain deployment
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
