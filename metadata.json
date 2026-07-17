@@ -1,0 +1,6 @@
+{
+  "name": "Study Portal",
+  "description": "An interactive, personalized study portal featuring custom animated backgrounds, local time displays, a secure server-side Gemini homework assistant, an elegant Spotify-inspired study playlist manager, and suggestion logging via Discord webhooks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
